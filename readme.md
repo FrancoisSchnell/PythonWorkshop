@@ -1,6 +1,6 @@
 # Learning Python 
 
-- 👋 A first start ([Hello World hack](AfirstStart/Hello_World_Hack.ipynb), [Fridge brain](AfirstStart/Fridge_Brain.ipynb))
+- 👋 A first start ([Hello World hack](AFirstStart/Hello_World_Hack.ipynb), [Fridge brain](AFirstStart/Fridge_Brain.ipynb))
 - 📈 [Discover data sciences](DataSciences/atelier_Titanic.ipynb) (Jupyter notebooks, pandas,
  [matplotlib](DataSciences/learnMatplolib.ipynb)...)
 - 🖼️ [Manipulate images (Pillow,...)](ManipulatePictures/manipluatePictures.ipynb)
