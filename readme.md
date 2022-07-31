@@ -7,7 +7,7 @@
 - 🖥️ Create desktop graphical users interfaces (pySimpleGUI...)
 - 🕸️ [Get live data through APIs](APIsRequests/Where_is_ISS.ipynb) (Requests, Json,...)
 - ✂️ Scrap informations from web pages (BeautifulSoup...)
-- 🔡 Manipulate text (find, replace) with regular expressions
+- 🔡 [Manipulate text](RegularExpressions/practiceRegex.ipynb) (find, replace) with regular expressions
 - 🧠 Discover Machine Learning with OpenCV
 
 
