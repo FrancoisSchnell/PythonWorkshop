@@ -12,11 +12,16 @@ sentInit = res0.bytes_sent
 
 print("Counting Mo received and sent...")
 while True:
-    time.sleep(10)
+    time.sleep(5)
     res= psutil.net_io_counters()
     moReceived = res.bytes_recv - recvInit 
     moSent = res.bytes_sent - sentInit
     duration = datetime.now()- t0
-    print("Duration : ", str(duration).split(".")[0])
-    print("Received:",moReceived/1000000.0,"Mo ")
-    print("Sent:",moSent/1000000,"Mo ") 
+    if 0:
+        print("Duration : ", str(duration).split(".")[0])
+        print("Received:",moReceived/1000000.0,"Mo ")
+        print("Sent:",moSent/1000000,"Mo ") 
+    if 1: # overwriting result on a single line
+        print("                                                     ",end="\r")
+        print("⏳", str(duration).split(".")[0],"⬇️ ",moReceived/1000000.0\
+        ,"Mo","⬆️ ",moSent/1000000,"Mo",end="\r")
