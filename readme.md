@@ -4,7 +4,7 @@
 - 📈 [Discover data sciences](DataSciences/atelier_Titanic.ipynb) (Jupyter notebooks, pandas,
  [matplotlib](DataSciences/learnMatplolib.ipynb)...)
 - 🖼️ [Manipulate images (Pillow,...)](ManipulatePictures/manipluatePictures.ipynb)
-- 🖥️ [Create desktop graphical users interfaces](MakeGUI/readme.md) (pySimpleGUI...)
+- 🖥️ [Create desktop graphical users interfaces](MakeGUI) (pySimpleGUI...)
 - 🕸️ [Get live data through APIs](APIsRequests/Where_is_ISS.ipynb) (Requests, Json,...)
 - ✂️ Scrap informations from web pages (BeautifulSoup...)
 - 🔡 [Manipulate text](RegularExpressions/practiceRegex.ipynb) (find, replace) with regular expressions
