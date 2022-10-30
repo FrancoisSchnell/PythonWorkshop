@@ -2,7 +2,6 @@ from rich import print
 from pytube import YouTube
 import datetime
 
-
 def getAudioInfos():
     print("\n[b magenta]"+yt.title+"[/b magenta]")
     print("Duration: "+str(datetime.timedelta(seconds=yt.length)))
